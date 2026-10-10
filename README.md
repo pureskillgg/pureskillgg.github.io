@@ -1,5 +1,10 @@
 # PureSkill.gg GitHub Pages Site
 
+> [!IMPORTANT]
+> **This repo is retired.** PureSkill.gg's developer documentation now lives in one place: the [docs](https://github.com/pureskillgg/docs) repo, published at [docs.pureskill.gg](https://docs.pureskill.gg). Make documentation changes there.
+>
+> This repo is kept only so `dev.pureskill.gg` keeps serving its one page, which points visitors to docs.pureskill.gg. It may be archived; GitHub Pages keeps serving an archived repo's site.
+
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-dev.pureskill.gg-53ac67)](https://dev.pureskill.gg)
 
 A one-page static GitHub Pages site for the `dev.pureskill.gg` custom domain. It points visitors to the PureSkill.gg docs at `https://docs.pureskill.gg`.
