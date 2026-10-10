@@ -2,36 +2,92 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#53ac67" />
-    <title>PureSkill.gg is your automated, AI-powered coach for CS2.</title>
-    <meta name="description" content="We analyze your gameplay and give individualized feedback to maximize your practice and rank up." />
-    <link
-      rel="icon"
-      href="https://csgo.cdn.pureskill.app/static/media/favicon-32x32.be64aae8.png" sizes="32x32"
-    >
-    <link
-      rel="icon"
-      href="https://csgo.cdn.pureskill.app/static/media/favicon-192x192.4247ab84.png" sizes="192x192"
-    >
-    <link
-      rel="apple-touch-icon-precomposed"
-      href="https://csgo.cdn.pureskill.app/static/media/favicon-180x180.9ec9d8ba.png"
-    >
-    <link href="https://csgo.cdn.pureskill.app/static/css/main.db4f70d1.chunk.css" rel="stylesheet">
+    <title>PureSkill.gg Docs</title>
+    <meta name="description" content="The PureSkill.gg developer docs, including the CSDS data format, live at docs.pureskill.gg." />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet" />
+    <style>
+      @font-face {
+        font-family: Archive;
+        src: url("/Archive.woff") format("woff");
+        font-display: swap;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      body {
+        background: #1e2029;
+        color: #8d9ba3;
+        font-family: Assistant, system-ui, sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+      }
+      main {
+        background: #232730;
+        border: 1px solid #2d313f;
+        border-radius: 6px;
+        padding: 40px 32px;
+        max-width: 480px;
+        width: 100%;
+        text-align: center;
+      }
+      img {
+        width: 220px;
+        max-width: 80%;
+      }
+      h1 {
+        font-family: Archive, sans-serif;
+        font-weight: normal;
+        color: #fff;
+        font-size: 28px;
+        margin: 24px 0 12px;
+      }
+      p {
+        margin: 0 0 28px;
+      }
+      p a {
+        color: #62cfcf;
+        text-decoration: none;
+      }
+      .button {
+        display: inline-block;
+        background: #3c7a52;
+        color: #fff;
+        font-family: Archive, sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 10px 24px;
+        transition: background 0.15s ease;
+      }
+      a:hover,
+      a:focus-visible {
+        filter: brightness(1.16);
+      }
+    </style>
   </head>
-  <body class="cdn-error">
+  <body>
     <main>
-      <header>
-        <img src="https://csgo.cdn.pureskill.app/static/media/logo.9a3f864e.svg" alt="PureSkill.gg">
-      </header>
-      <h1>Ran through smoke!</h1>
+      <img src="/logo.svg" alt="PureSkill.gg" />
+      <h1>Looking for the docs?</h1>
       <p>
-        We couldn't find this page.
-        You should
-        <a href="https://docs.pureskill.gg">get back to safety</a>.
+        The PureSkill.gg developer docs, including the CSDS data format, live at
+        <a href="https://docs.pureskill.gg">docs.pureskill.gg</a>.
       </p>
+      <a class="button" href="https://docs.pureskill.gg">Go to the docs</a>
     </main>
   </body>
 </html>
